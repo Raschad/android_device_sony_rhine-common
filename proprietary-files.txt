@@ -351,6 +351,9 @@ bin/clearpad_fwloader
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/libsensor_reg.so
 
+# UI
+vendor/lib/libuiblur.so
+
 # WiFi
 bin/radish
 
