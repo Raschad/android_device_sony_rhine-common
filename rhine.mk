@@ -91,11 +91,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/gps/etc/gps.conf:system/etc/gps.conf
 
+# FM Radio
 PRODUCT_PACKAGES += \
-    qcom.fmradio \
-    libqcomfm_jni \
-    FM2 \
-    FMRecord
+    FMRadio \
+    libfmjni
 
 # Camera
 PRODUCT_PACKAGES += \
